@@ -17,12 +17,6 @@ import {
 } from "@/components/ui/sidebar"
 import BarChart from "@/components/BarChart"
 import LineChart from "@/components/LineChart"
-import PieChart from "@/components/PieChart"
-import RadarChart from "@/components/RadarChart"
-import LineChart2 from "@/components/LineChart2"
-import AreaChart from "@/components/AreaChart"
-import BubbleChart from "@/components/BubbleChart"
-import TemperatureDropdown from "@/components/TemperatureDropdown"
 
 
 
@@ -41,19 +35,19 @@ export default function Page() {
               <BreadcrumbList>
                 <BreadcrumbItem className="hidden md:block">
                   <BreadcrumbLink href="#">
-                    Main
+                    Building Your Application
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
-                  <BreadcrumbPage>Dashboard</BreadcrumbPage>
+                  <BreadcrumbPage>Data Fetching</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <div className="grid auto-rows-min gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
             <div className="aspect-video rounded-xl bg-muted/50">
               <BarChart />
             </div>
@@ -61,22 +55,9 @@ export default function Page() {
               <LineChart />
             </div>
             <div className="aspect-video rounded-xl bg-muted/50">
-              <LineChart2 />
-            </div>
-            <div className="aspect-video rounded-xl bg-muted/50">
-              <AreaChart />
-            </div>
-            <div className="aspect-square w-1/2 mx-auto rounded-xl bg-muted/50">
-              <PieChart />
-            </div>
-            <div className="aspect-video rounded-xl bg-muted/50">
-              <BubbleChart />
             </div>
           </div>
-          <div className="p-4">
-            <TemperatureDropdown />
-          </div>
-          <div className="min-h-[100vh] w-1/2 rounded-xl bg-muted/50 md:min-h-min" />
+          <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
         </div>
       </SidebarInset>
     </SidebarProvider>
