@@ -5,11 +5,11 @@ ChartJS.register(LineElement, PointElement, LinearScale, Title, CategoryScale);
 
 const LineChart2 = () => {
   const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     datasets: [
       {
         label: 'Dataset 2',
-        data: [45, 69, 60, 91, 66, 75, 50],
+        data: [45, 69, 60, 91, 66, 75, 50, 45, 69, 60, 91, 66, 75, 50],
         fill: false,
         borderColor: 'rgb(54, 162, 235)',
         tension: 0.1

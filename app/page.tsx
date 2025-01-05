@@ -23,8 +23,10 @@ import LineChart2 from "@/components/LineChart2"
 import AreaChart from "@/components/AreaChart"
 import BubbleChart from "@/components/BubbleChart"
 import TemperatureDropdown from "@/components/TemperatureDropdown"
-
-
+import { InteractiveAreaChart } from "@/components/InteractiveAreaChart";
+import { BarChart2, BarChartBig, ChartScatter } from "lucide-react";
+import { BarController, BarElement } from "chart.js";
+import { InteractiveBarChart } from "@/components/InteractiveBarChart";
 
 
 
@@ -66,7 +68,7 @@ export default function Page() {
             <div className="aspect-video rounded-xl bg-muted/50">
               <AreaChart />
             </div>
-            <div className="aspect-square w-1/2 mx-auto rounded-xl bg-muted/50">
+            <div className="aspect-square w-1/2 mx-auto rounded-xl bg-muted/0">
               <PieChart />
             </div>
             <div className="aspect-video rounded-xl bg-muted/50">
@@ -74,7 +76,7 @@ export default function Page() {
             </div>
           </div>
           <div className="p-4">
-            <TemperatureDropdown />
+            <InteractiveBarChart />
           </div>
           <div className="min-h-[100vh] w-1/2 rounded-xl bg-muted/50 md:min-h-min" />
         </div>

@@ -5,11 +5,11 @@ ChartJS.register(LineElement, PointElement, LinearScale, Title, CategoryScale, F
 
 const AreaChart = () => {
   const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     datasets: [
       {
         label: 'Dataset 3',
-        data: [30, 50, 40, 60, 70, 90, 100],
+        data: [30, 50, 40, 60, 70, 90, 100, 30, 50, 40, 60, 70, 90, 100],
         fill: true,
         backgroundColor: 'rgba(75, 192, 192, 0.2)',
         borderColor: 'rgb(75, 192, 192)',
