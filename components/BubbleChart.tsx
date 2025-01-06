@@ -7,14 +7,16 @@ const BubbleChart = () => {
   const data = {
     datasets: [
       {
-        label: 'Dataset 5',
+        label: 'Dataset',
         data: [
-          { x: 20, y: 30, r: 15 },
-          { x: 40, y: 10, r: 10 },
-          { x: 25, y: 20, r: 20 },
-          { x: 30, y: 30, r: 25 },
-          { x: 10, y: 10, r: 10 },
-          { x: 100, y: 100, r: 55 },
+          { x: 20, y: 5, r: 15 },
+          { x: 20, y: 10, r: 15 }, 
+          { x: 10, y: 7, r: 15 },
+          { x: 20, y: 10, r: 15 },
+          { x: 40, y: 6, r: 15 },
+          { x: 20, y: 10, r: 15 },
+          { x: 14, y: 2, r: 15 },
+          { x: 20, y: 9, r: 15 },
         ],
         backgroundColor: 'rgba(255, 99, 132, 0.5)',
       },

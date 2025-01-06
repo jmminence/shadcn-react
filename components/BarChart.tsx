@@ -8,7 +8,7 @@ const data = {
   labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   datasets: [
     {
-      label: "Dataset 1",
+      label: "Dataset",
       data: [65, 59, 80, 81, 56, 55, 40, 65, 59, 80, 81, 56, 55, 40],
       backgroundColor: "rgba(75, 192, 192, 0.2)",
       borderColor: "rgba(75, 192, 192, 1)",
@@ -25,7 +25,7 @@ const options = {
     },
     title: {
       display: true,
-      text: "Chart.js Bar Chart",
+      text: "Ejemplo de gráfico BarChart",
     },
   },
 };

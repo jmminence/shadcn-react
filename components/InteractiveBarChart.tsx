@@ -142,8 +142,8 @@ export function InteractiveBarChart() {
     <Card className="bg-white dark:bg-gray-800 max-w-full max-h-[400px] overflow-hidden">
       <CardHeader className="flex flex-col items-stretch space-y-0 border-b p-0 sm:flex-row dark:border-gray-700">
         <div className="flex flex-1 flex-col justify-center gap-1 px-6 py-5 sm:py-6">
-          <CardTitle>Bar Chart - Interactive</CardTitle>
-          <CardDescription>Showing total visitors for the last 3 months</CardDescription>
+          <CardTitle>Bar Chart - Interactivo</CardTitle>
+          <CardDescription>Mostrando el total de visitantes para los últimos 3 meses</CardDescription>
         </div>
         <div className="flex">
           {["desktop", "mobile"].map((key) => {
@@ -153,8 +153,7 @@ export function InteractiveBarChart() {
                 key={chart}
                 data-active={activeChart === chart}
                 className="relative z-30 flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 text-left even:border-l data-[active=true]:bg-muted/50 sm:border-l sm:border-t-0 sm:px-8 sm:py-6 dark:border-gray-700 dark:data-[active=true]:bg-gray-700"
-                onClick={() => setActiveChart(chart)}
-              >
+                onClick={() => setActiveChart(chart)}>
                 <span className="text-xs text-muted-foreground dark:text-gray-400">
                   {chartConfig[chart].label}
                 </span>

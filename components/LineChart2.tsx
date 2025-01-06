@@ -8,7 +8,7 @@ const LineChart2 = () => {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     datasets: [
       {
-        label: 'Dataset 2',
+        label: 'Dataset',
         data: [45, 69, 60, 91, 66, 75, 50, 45, 69, 60, 91, 66, 75, 50],
         fill: false,
         borderColor: 'rgb(54, 162, 235)',

@@ -5,12 +5,12 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PieChart = () => {
   const data = {
-    labels: ['Red', 'Blue', 'Yellow'],
+    labels: ['Data1', 'Data2', 'Data3'],
     datasets: [
       {
         label: 'Dataset 4',
         data: [300, 70, 100],
-        backgroundColor: ['rgb(255, 99, 132)', 'rgb(54, 162, 235)', 'rgb(255, 205, 86)'],
+        backgroundColor: ['rgb(102, 153, 142)', 'rgb(204, 102, 112)', 'rgb(153, 102, 153)'],
         hoverOffset: 4
       }
     ]
